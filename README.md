@@ -30,3 +30,14 @@ to view the file's header & summary.
    1. Use **dplyr** package to group data by activity & subject.
    2. Use `summarise_each` function to calculate the Mean of each variable.
 14. Write New tidy Data set to text file using `write.table`.
+
+
+####Acknowledgement:
+Some posts from the course's forum were really helpful in understanding the project & how to implement it:
+- [Getting Started with the Course Project](https://class.coursera.org/getdata-013/forum/thread?thread_id=191)
+- [David's personal course project FAQ](https://class.coursera.org/getdata-013/forum/thread?thread_id=30)
+Also, searching for ways to implement some functions:
+- [Replace a value in a data frame based on a conditional (`if`) statement in R](http://stackoverflow.com/questions/5824173/replace-a-value-in-a-data-frame-based-on-a-conditional-if-statement-in-r)
+- [How to find row number of a value in R code](http://stackoverflow.com/questions/20782218/how-to-find-row-number-of-a-value-in-r-code)
+And, the Git Hub documentation to upload & format files:
+- [Markdown Basics](https://help.github.com/articles/markdown-basics/)
