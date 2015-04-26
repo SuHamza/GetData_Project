@@ -1,34 +1,35 @@
-Activity: One of six activities performed by the Subject, 
+**Activity:** One of six activities performed by the Subject, 
 which are:(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING).
 These activities were performed by a person wearing a smartphone (Samsung Galaxy S II) on the waist.
 
-Subject: The identity of the subject who performed the activity. Its range is from 1 to 30. 
+**Subject:** The identity of the subject who performed the activity. Its range is from 1 to 30. 
 
-The other 66 variables describe the Average of the Mean & Standard Deviation for the variables of the feature vector for each pattern:  
+The other **66 variables** describe the Average of the Mean & Standard Deviation for the variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
 
+Where:
+**mean():** Mean value
+**std():** Standard deviation
 
-mean(): Mean value
-std(): Standard deviation
-
+*(The following part is copied from the original Code Book to describe the meaning of each variable, where I used the same variable names from 'features.txt')*
 Feature Selection 
 =================
 
