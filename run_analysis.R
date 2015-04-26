@@ -1,7 +1,7 @@
-tidyData <- function() {
+tidyData <- function(dir) {
   #Set Working Directory
-  #Please Change the directory to where the Samsung data is located
-  setwd("../Project_GetData/UCI HAR Dataset")
+  #directory where the Samsung data is located
+  setwd(dir)
   #Read Train data & Labels
   train <- read.table("train/X_train.txt")
   trainLbl <- read.table("train/y_train.txt")
